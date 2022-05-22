@@ -1,10 +1,10 @@
-var todayDate = moment().format('dddd, MMM Do YYYY');
-$(#currentDay).html(todayDate);
+var todayDate = moment().format("dddd, MMM Do YYYY");
+$("#currentDay").html(todayDate);
 
-$(document).ready(funtion() {
-    $(".saveBtn").on("click," function() {
-        var text = $(this).siblings(".desscription").val();
-        var time = $(this).parent().attr('id');
+$(document).ready(function () {
+    $(".saveBtn").on("click", function () {
+        var text = $(this).siblings(".description").val();
+        var time = $(this).parent().attr("id");
 
         localStorage.setItem(time, text);
     })
@@ -29,7 +29,6 @@ $(document).ready(funtion() {
                 $(this).removeClass("present");
                 $(this).removeClass("past");
                 $(this).addClass("future");
-
             }
         })
     }
