@@ -14,7 +14,7 @@ Are you working a full time job and doing a coding program at the same time? Wel
 
   ## Screenshots
 
-  ![Screenshot](./assets/images/2022-05-22 21_33_05-Work Day Scheduler.png)
+  ![Screenshot](./assets/images/2022-05-22%2021_33_05-Work%20Day%20Scheduler.png)
 
   ## Live Link
 
